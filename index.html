@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Brix2Pix</title>
+	<!-- Подключение стилей -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="fnaw/fontawesome/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+	<!-- Конец подключения стилей -->
+</head>
+<body>
+	<section class="main-wrapper">
+		<header class="app__header">
+			<nav class="header-nav">
+				<div class="container">
+					<button class="logo"></button>
+					<div class="page-text" id="page-text">
+						Unpaid Saved
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="container" id="result">
+			<div class="main" data-tabs-target="home">
+				<div class="content">
+					<div class="balance-heading">
+						<span class="balance-text">
+							Credit balance
+						</span>
+						<span class="fullprice">
+							$0
+						</span>
+					</div>
+					<div class="page-subtitle">
+						ways to earn credit
+					</div>
+					<ul class="card-items">
+						<li class="card">
+							<div class="card-content">
+								<span class="card-icon">
+									<img src="img/bag.svg" alt="icon-img" class="car-icon__img">
+								</span>
+								<div class="card-info">
+									<span class="card-title">The First Order</span>
+									<p class="card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										+5$
+									</span>
+								</div>
+							</div>
+							<button class="card-button">Claim</button>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<span class="card-icon">
+									<img src="img/telegram.svg" alt="icon-img" class="car-icon__img">
+								</span>
+								<div class="card-info">
+									<span class="card-title">Post your work in social network</span>
+									<p class="card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										+10$
+									</span>
+									<span class="question">
+										?
+									</span>
+								</div>
+							</div>
+							<button class="card-button" data-price="10" id="cost">Claim</button>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<span class="card-icon">
+									<img src="img/coupon.svg" alt="icon-img" class="car-icon__img">
+								</span>
+								<div class="card-info">
+									<span class="card-title">Give a friend a coupon</span>
+									<p class="card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										+10$
+									</span>
+								</div>
+							</div>
+							<button class="card-button">Claim</button>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<span class="card-icon">
+									<img src="img/coupon.svg" alt="icon-img" class="car-icon__img">
+								</span>
+								<div class="card-info">
+									<span class="card-title">Give a friend a coupon</span>
+									<p class="card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										+10$
+									</span>
+								</div>
+							</div>
+							<button class="card-button">Claim</button>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<span class="card-icon">
+									<img src="img/coupon.svg" alt="icon-img" class="car-icon__img">
+								</span>
+								<div class="card-info">
+									<span class="card-title">Give a friend a coupon</span>
+									<p class="card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										+10$
+									</span>
+								</div>
+							</div>
+							<button class="card-button">Claim</button>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<span class="card-icon">
+									<img src="img/coupon.svg" alt="icon-img" class="car-icon__img">
+								</span>
+								<div class="card-info">
+									<span class="card-title">Give a friend a coupon</span>
+									<p class="card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										+10$
+									</span>
+								</div>
+							</div>
+							<button class="card-button">Claim</button>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<span class="card-icon">
+									<img src="img/coupon.svg" alt="icon-img" class="car-icon__img">
+								</span>
+								<div class="card-info">
+									<span class="card-title">Give a friend a coupon</span>
+									<p class="card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										+10$
+									</span>
+								</div>
+							</div>
+							<button class="card-button">Claim</button>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<span class="card-icon">
+									<img src="img/coupon.svg" alt="icon-img" class="car-icon__img">
+								</span>
+								<div class="card-info">
+									<span class="card-title">Give a friend a coupon</span>
+									<p class="card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										+10$
+									</span>
+								</div>
+							</div>
+							<button class="card-button">Claim</button>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<span class="card-icon">
+									<img src="img/coupon.svg" alt="icon-img" class="car-icon__img">
+								</span>
+								<div class="card-info">
+									<span class="card-title">Give a friend a coupon</span>
+									<p class="card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										+10$
+									</span>
+								</div>
+							</div>
+							<button class="card-button">Claim</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main hide" data-tabs-target="saved">
+				<div class="content">
+					<div class="page-subtitle">
+						September 2021
+					</div>
+					<ul class="card-items">
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										96x96 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+								</div>
+								<div class="card-infograp">
+									<button class="close"></button>
+									<button class="pay">Pay</button>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										96x96 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+								</div>
+								<div class="card-infograp">
+									<button class="close"></button>
+									<button class="pay">Pay</button>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										96x96 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+								</div>
+								<div class="card-infograp">
+									<button class="close"></button>
+									<button class="pay">Pay</button>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										96x96 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+								</div>
+								<div class="card-infograp">
+									<button class="close"></button>
+									<button class="pay">Pay</button>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										96x96 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+								</div>
+								<div class="card-infograp">
+									<button class="close"></button>
+									<button class="pay">Pay</button>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										96x96 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+								</div>
+								<div class="card-infograp">
+									<button class="close"></button>
+									<button class="pay">Pay</button>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										96x96 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+								</div>
+								<div class="card-infograp">
+									<button class="close"></button>
+									<button class="pay">Pay</button>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main hide" data-tabs-target="order">
+				<div class="content">
+					<div class="page-subtitle">
+						September 2021
+					</div>
+					<ul class="card-items">
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										96x96 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+									<span class="tag">
+										In assembly
+									</span>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										$100
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										64x64 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+									<span class="tag">
+										Sent <a href="#">#213801342</a>
+									</span>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										$100
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										64x64 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+									<div class="tag">
+										<span class="confrimed">
+											<i class="fas fa-check"></i>
+										</span>
+										Delivered
+									</div>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										$100
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										96x96 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+									<div class="tag">
+										<span class="confrimed">
+											<i class="fas fa-check"></i>
+										</span>
+										Delivered
+									</div>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										$100
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										64x64 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+									<div class="tag">
+										<span class="confrimed">
+											<i class="fas fa-check"></i>
+										</span>
+										Delivered
+									</div>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										$100
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										96x96 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+									<div class="tag">
+										<span class="confrimed">
+											<i class="fas fa-check"></i>
+										</span>
+										Delivered
+									</div>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										$100
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card-content">
+								<img class="card-img" src="img/Mask.jpg" alt="image">
+								<div class="card-info">
+									<span class="size">
+										64x64 bricks
+									</span>
+									<span class="date">
+										09-09-21
+									</span>
+									<div class="tag">
+										<span class="confrimed">
+											<i class="fas fa-check"></i>
+										</span>
+										Delivered
+									</div>
+								</div>
+								<div class="card-infograp">
+									<span class="balance-coin">
+										$100
+									</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<button id="share" class="share"></button>
+		<nav class="nav-footer">
+			<ul class="nav-list tabs">
+				<li class="nav-list__item">
+					<button class="tabs-btn" data-tabs-path="home">
+						<i class="fas fa-home"></i>
+						<span class="button-text">
+							Home
+						</span>
+					</button>
+				</li>
+				<li class="nav-list__item">
+					<button class="tabs-btn" data-tabs-path="saved">
+						<i class="far fa-bookmark"></i>
+						<span class="button-text">
+							Unpaid Saved
+						</span>
+					</button>
+				</li>
+				<li class="nav-list__item">
+					<button class="tabs-btn" data-tabs-path="order">
+						<i class="far fa-clock"></i>
+						<span class="button-text">
+							List of orders
+						</span>
+					</button>
+				</li>
+			</ul>
+		</nav>
+	</section>
+	<!-- Подключение скриптов -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script  src="js/main.js"></script>
+	<!-- Конец подключения скриптов -->
+</body>
+</html>
